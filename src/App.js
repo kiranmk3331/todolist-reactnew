@@ -18,6 +18,7 @@ function App() {
   useEffect(() => {
     filterHandler();
     saveLocalTodos();
+    // eslint-disable-next-line
   }, [todos,status])
 
   const filterHandler = () => {
